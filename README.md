@@ -7,10 +7,8 @@ This LNMarkets.com TypescriptSDK provides developers with a powerful tool to int
 Install the package via npm to integrate it into your project:
 
 ```bash
-npm install your-package-name --save
+npm install lnmarkets --save
 ```
-
-Replace `your-package-name` with the actual name of your npm package as it is listed in npm.
 
 ## Usage
 
