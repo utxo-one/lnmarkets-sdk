@@ -7,7 +7,7 @@ This LNMarkets.com TypescriptSDK provides developers with a powerful tool to int
 Install the package via npm to integrate it into your project:
 
 ```bash
-npm install lnmarkets --save
+npm install lnmarkets-sdk --save
 ```
 
 ## Usage
@@ -19,14 +19,14 @@ Here’s how you can start using the Futures Trading SDK in your project.
 First, you need to import and configure the API client with your credentials:
 
 ```javascript
-import { ApiClient, Futures } from "your-package-name";
+import { ApiClient, Futures } from "lnmarkets-sdk";
 
 // Set up the API client
 const apiClient = new ApiClient({
   apiKey: "your_api_key",
   passphrase: "your_api_passphrase",
   secret: "your_api_secret",
-  baseURL: "https://api.yourdomain.com/",
+  baseURL: "https://api.lnmarkets.com/",
 });
 
 // Initialize the Futures module
