@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",                   // Set to an ECMAScript version supported by your Node.js version
+    "module": "commonjs",              // CommonJS for Node.js
+    "outDir": "./dist",                // Redirect output structure to the directory
+    "rootDir": "./",                // Specify the root directory of input files
+    "strict": true,                    // Enable all strict type-checking options
+    "esModuleInterop": true,           // Enables ES6 module emulation
+    "skipLibCheck": true,              // Skip type checking of all declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",                    // Exclude node_modules
+  ]
+}

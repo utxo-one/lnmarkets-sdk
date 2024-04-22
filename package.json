@@ -1,0 +1,27 @@
+{
+  "name": "lnmarkets-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utxo-one/lnmarkets-sdk.git"
+  },
+  "author": "utxo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utxo-one/lnmarkets-sdk/issues"
+  },
+  "homepage": "https://github.com/utxo-one/lnmarkets-sdk#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
